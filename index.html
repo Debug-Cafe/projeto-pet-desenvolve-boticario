@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raças de Cachorro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="logotipo">QueroDog 🐾</div>
+    </nav>
+    <main>
+      <div class="container">
+        <h1 class="title">Busque seu Dog do Coração</h1>
+        <div class="busca">
+          <input
+            class="search"
+            type="text"
+            id="search"
+            placeholder="Digite uma raça..."
+          />
+          <button class="button" onclick="getDogs()">Buscar</button>
+        </div>
+        <div class="image-dogs">
+          <img src="" alt="Imagem de exibição dos cães" />
+        </div>
+
+        <div id="resultado"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
