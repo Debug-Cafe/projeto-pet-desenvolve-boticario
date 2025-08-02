@@ -20,26 +20,20 @@ async function getDogs() {
     }
 
     listaRacas.innerHTML = "";
-
-filtradas.forEach(function(raca) {
-  const card = document.createElement("div");
-  card.className = "card";
-
-  card.innerHTML =
-    "<h2>" + raca.name + "</h2>" +
-    "<p><strong>Temperamento:</strong> " + (raca.temperament || "N/A") + "</p>" +
-    "<p><strong>Origem:</strong> " + (raca.origin || "Desconhecida") + "</p>" +
-    "<p><strong>Expectativa de vida:</strong> " + raca.life_span + "</p>";
-
-  listaRacas.appendChild(card);
-});
+    filtradas.forEach((raca) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+    <h2>${raca.name}</h2>
+    ${raca.image ? `<img src="${raca.image.url}" alt="${raca.name}" />` : ""}
+    <p><strong>Temperamento:</strong> ${raca.temperament || "N/A"}</p>
+    <p><strong>Origem:</strong> ${raca.origin || "Desconhecida"}</p>
+    <p><strong>Expectativa de vida:</strong> ${raca.life_span}</p>
+  `;
+      listaRacas.appendChild(card);
+    });
   } catch (err) {
     listaRacas.innerHTML = "<p>Erro ao buscar dados.</p>";
     console.error(err);
   }
 }
-
-
-
-
-
