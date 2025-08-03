@@ -1,0 +1,13 @@
+{
+  "name": "querodog-cli",
+  "version": "1.0.0",
+  "description": "CLI para consultar raças de cachorro",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": ["dog", "breeds", "cli", "api"],
+  "author": "Desenvolve Boticário",
+  "license": "MIT"
+}

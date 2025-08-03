@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raças de Cachorro</title>
+    <meta name="description" content="Descubra raças de cachorro com o QueroDog. Busque informações sobre temperamento, origem e características dos cães." />
+    <meta name="keywords" content="cachorro, raças, cães, pets, animais, QueroDog" />
+    <meta name="author" content="Programa Desenvolve Boticário" />
+    <title>QueroDog - Descubra Raças de Cachorro</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,23 +15,30 @@
     </nav>
     <main>
       <div class="container">
-        <h1 class="title">Busque seu Dog do Coração</h1>
-        <div class="busca">
-          <input
-            class="search"
-            type="text"
-            id="search"
-            placeholder="Digite uma raça..."
-          />
-          <button class="button" onclick="getDogs()">Buscar</button>
+        <div class="search-section">
+          <h1 class="title">Busque seu Dog do Coração</h1>
+          <div class="busca">
+            <input
+              class="search"
+              type="text"
+              id="search"
+              placeholder="Digite uma raça..."
+            />
+            <button class="button" onclick="getDogs()">Buscar</button>
+          </div>
         </div>
-        <div class="image-dogs">
-          <img src="" alt="Imagem de exibição dos cães" />
-        </div>
+
 
         <div id="resultado"></div>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 QueroDog - Programa Desenvolve Boticário</p>
+        <p>Descubra as melhores raças de cachorro para você</p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
