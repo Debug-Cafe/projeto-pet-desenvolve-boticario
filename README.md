@@ -6,13 +6,13 @@ Projeto criado como parte do programa Desenvolve do Grupo Boticário com o objet
 
 ## 📸 Imagem do Projeto
 
-![Preview do Projeto](coloque-aqui-o-link-da-imagem)
+![Imagem de tela inicial do site](/assets/pataSite.png)
 
 ---
 
 ## 🔗 Acesse o Deploy
 
-👉 [Clique aqui para ver o projeto online](https://seulink.vercel.app)
+👉 [Clique aqui para ver o projeto online](https://debug-cafe.github.io/projeto-pet-desenvolve-boticario/)
 
 ---
 
@@ -35,19 +35,20 @@ Com uma interface simples e intuitiva, é possível visualizar raças populares 
 
 ## 🧱 Estrutura do Projeto
 
- projeto-pet-desenvolve-boticario/
-├── index.html # Estrutura da interface
-├── style.css # Estilização do projeto
-├── script.js # Lógica JS para buscar e exibir dados da API
-└── README.md # Documentação do projeto
+```plaintext
+projeto-pet-desenvolve-boticario/
+├── index.html     # Estrutura da interface
+├── style.css      # Estilização do projeto
+├── script.js      # Lógica JS para buscar e exibir dados da API
+└── README.md      # Documentação do projeto
 
 ## ✨ Funcionalidades
 
-- [x] Exibir as 5 primeiras raças de cachorro disponíveis na API
-- [x] Mostrar nome, altura e origem das raças
+- [x] Exibir as 4 primeiras raças de cachorro disponíveis na API
+- [x] Mostrar nome, temperamento e origem das raças
 - [x] Campo de busca para digitar o nome da raça
-- [ ] Filtrar raças com base na busca do usuário (em desenvolvimento)
-- [ ] Responsividade para dispositivos móveis
+- [Breve] Filtrar raças com base na busca do usuário (em desenvolvimento)
+- [x] Responsividade para dispositivos móveis
 
 ---
 
@@ -55,4 +56,4 @@ Com uma interface simples e intuitiva, é possível visualizar raças populares 
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
+git clone https://github.com/Debug-Cafe/projeto-pet-desenvolve-boticario.git
