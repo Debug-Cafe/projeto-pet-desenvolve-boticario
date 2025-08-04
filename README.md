@@ -33,14 +33,6 @@ Com uma interface simples e intuitiva, é possível visualizar raças populares 
 
 ---
 
-## 🧱 Estrutura do Projeto
-
- projeto-pet-desenvolve-boticario/
-├── index.html # Estrutura da interface
-├── style.css # Estilização do projeto
-├── script.js # Lógica JS para buscar e exibir dados da API
-└── README.md # Documentação do projeto
-
 ## ✨ Funcionalidades
 
 - [x] Exibir as 5 primeiras raças de cachorro disponíveis na API
