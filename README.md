@@ -41,6 +41,7 @@ projeto-pet-desenvolve-boticario/
 ├── style.css      # Estilização do projeto
 ├── script.js      # Lógica JS para buscar e exibir dados da API
 └── README.md      # Documentação do projeto
+```
 
 ## ✨ Funcionalidades
 
