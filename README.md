@@ -37,10 +37,15 @@ Com uma interface simples e intuitiva, é possível visualizar raças populares 
 
 ```plaintext
 projeto-pet-desenvolve-boticario/
-├── index.html     # Estrutura da interface
-├── style.css      # Estilização do projeto
-├── script.js      # Lógica JS para buscar e exibir dados da API
-└── README.md      # Documentação do projeto
+├── .gitignore       # Arquivos sensíveis (.env)
+├── .vscode/         # Configurações locais do VS Code
+├── assets/          # Pasta reservada para imagens ou recursos estáticos
+├── cli.js           # Script para busca de raças via terminal (Node.js)
+├── index.html       # Estrutura da interface web
+├── package.json     # Configuração e dependências do projeto Node.js
+├── README.md        # Documentação do projeto
+├── script.js        # Script JS da interface web (consome a API)
+└── style.css        # Estilização da interface
 ```
 
 ## ✨ Funcionalidades
