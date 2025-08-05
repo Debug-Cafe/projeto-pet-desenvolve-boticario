@@ -52,9 +52,3 @@ projeto-pet-desenvolve-boticario/
 - [x] Responsividade para dispositivos móveis
 
 ---
-
-## 📄 Como usar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/Debug-Cafe/projeto-pet-desenvolve-boticario.git
