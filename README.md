@@ -33,6 +33,7 @@ Com uma interface simples e intuitiva, é possível visualizar raças populares 
 
 ---
 
+<<<<<<< HEAD
 ## 🧱 Estrutura do Projeto
 
 ```plaintext
@@ -43,6 +44,8 @@ projeto-pet-desenvolve-boticario/
 └── README.md      # Documentação do projeto
 ```
 
+=======
+>>>>>>> 6bd88b3fb6080371d5644c2dcb3e37ad8ba83c60
 ## ✨ Funcionalidades
 
 - [x] Exibir as 4 primeiras raças de cachorro disponíveis na API
@@ -51,4 +54,14 @@ projeto-pet-desenvolve-boticario/
 - [Breve] Filtrar raças com base na busca do usuário (em desenvolvimento)
 - [x] Responsividade para dispositivos móveis
 
+<<<<<<< HEAD
 ---
+=======
+---
+
+## 📄 Como usar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seuusuario/nome-do-repositorio.git
+>>>>>>> 6bd88b3fb6080371d5644c2dcb3e37ad8ba83c60
