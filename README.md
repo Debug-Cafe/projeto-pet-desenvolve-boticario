@@ -48,7 +48,7 @@ projeto-pet-desenvolve-boticario/
 - [x] Exibir as 4 primeiras raças de cachorro disponíveis na API
 - [x] Mostrar nome, temperamento e origem das raças
 - [x] Campo de busca para digitar o nome da raça
-- [Breve] Filtrar raças com base na busca do usuário (em desenvolvimento)
+- [x] Filtrar raças com base na busca do usuário (em desenvolvimento)
 - [x] Responsividade para dispositivos móveis
 
 ---
