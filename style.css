@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 .menu {
   display: flex;
   justify-content: flex-start;
@@ -54,7 +64,8 @@
   background: #1a2f0d;
   color: white;
   padding: 15px 0;
-  margin-top: 50px;
+  margin-top: auto;
+  width: 100%;
 }
 
 .footer-content {
